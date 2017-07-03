@@ -1,0 +1,92 @@
+
+
+
+html, body, #heroimage .topnav{
+  width:100%;
+  height:100%;
+}
+
+#heroimage{   
+  background:url('http://www.intrawallpaper.com/static/images/HD-Wallpapers-646.jpg') center center;
+  background-size:cover;
+  height:1200px; 
+  width:cover;
+}
+
+#centerimage{   
+  background:url('http://www.planwallpaper.com/static/images/rails-on-field_1206844172.jpg') center center;
+  background-size:cover;
+}
+
+#bottomimage{   
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9LMKt3uNmzJ9XM4ccUX6voBtXP0oEWrlcBYnxqBNSlXUMjxj') center center;
+  background-size:cover;
+}
+
+#content{
+  padding:20px;
+}
+
+
+
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  .background {
+    background-color:black;
+    padding: 50px;
+  }
+  .body1{
+    color:white;
+    font-family: "Lato", Georgia, Serif;
+  }
+  .body2{
+    color:grey;
+    font-family: "Josefin Slab", Monospace;
+  }
+  .bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.transbox {
+  margin: 15px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.75;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+.thick-green-border {
+    margin: 25%;
+    border-color: transparent;
+    border-width: 10x;
+    border-style: solid;
+    border-radius: 50%;
+}
